@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1755D71BF56AD38C19464C5B /* Pods_PFXRouterMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF9D868651D3EA7614FB349 /* Pods_PFXRouterMVVM.framework */; };
+		4995B4479A6E21F7B81326A4 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D0F80A7F5EE917CE5FB382 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework */; };
+		9217ECF8ECC47298AAF5DABD /* Pods_PFXRouterMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FEBE90E99D651F8C3CEC4D /* Pods_PFXRouterMVVMTests.framework */; };
+		D296675823F27BED00731658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675723F27BED00731658 /* AppDelegate.swift */; };
+		D296675A23F27BED00731658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675923F27BED00731658 /* SceneDelegate.swift */; };
+		D296675C23F27BED00731658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675B23F27BED00731658 /* ViewController.swift */; };
+		D296675F23F27BED00731658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D296675D23F27BED00731658 /* Main.storyboard */; };
+		D296676223F27BED00731658 /* PFXRouterMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D296676023F27BED00731658 /* PFXRouterMVVM.xcdatamodeld */; };
+		D296676423F27BEE00731658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D296676323F27BEE00731658 /* Assets.xcassets */; };
+		D296676723F27BEE00731658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D296676523F27BEE00731658 /* LaunchScreen.storyboard */; };
+		D296677223F27BEE00731658 /* PFXRouterMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296677123F27BEE00731658 /* PFXRouterMVVMTests.swift */; };
+		D296677D23F27BEE00731658 /* PFXRouterMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296677C23F27BEE00731658 /* PFXRouterMVVMUITests.swift */; };
+		D296678C23F28AFB00731658 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D296678B23F28AFB00731658 /* .swiftlint.yml */; };
+		D296679223F28BEA00731658 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679123F28BEA00731658 /* ListRouter.swift */; };
+		D296679423F28BF700731658 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679323F28BF700731658 /* ListViewModel.swift */; };
+		D296679623F28C0700731658 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679523F28C0700731658 /* ListViewController.swift */; };
+		D296679823F28C1500731658 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D296679723F28C1500731658 /* List.storyboard */; };
+		D296679B23F28D4800731658 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679A23F28D4800731658 /* BaseRouter.swift */; };
+		D296679D23F28E5700731658 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679C23F28E5700731658 /* BaseViewModel.swift */; };
+		D296679F23F28EBA00731658 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679E23F28EBA00731658 /* BaseViewController.swift */; };
+		D29667A223F28F6400731658 /* URL+Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29667A123F28F6400731658 /* URL+Params.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D296676E23F27BEE00731658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D296674C23F27BED00731658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D296675323F27BED00731658;
+			remoteInfo = PFXRouterMVVM;
+		};
+		D296677923F27BEE00731658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D296674C23F27BED00731658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D296675323F27BED00731658;
+			remoteInfo = PFXRouterMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FEBE90E99D651F8C3CEC4D /* Pods_PFXRouterMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRouterMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D56A856D81579D7E6D217B3 /* Pods-PFXRouterMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVMTests/Pods-PFXRouterMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		13D0F80A7F5EE917CE5FB382 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24394E9F6D0874BD15E17457 /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVM-PFXRouterMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVM-PFXRouterMVVMUITests/Pods-PFXRouterMVVM-PFXRouterMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89A572044AD6DEDB8C33F67F /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVM-PFXRouterMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVM-PFXRouterMVVMUITests/Pods-PFXRouterMVVM-PFXRouterMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC3F774A41CCBF8B84F1582 /* Pods-PFXRouterMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVMTests/Pods-PFXRouterMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B546EF194909DEB59DEBFA5F /* Pods-PFXRouterMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVM.debug.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD9C38B8C805E9CCA208EDC /* Pods-PFXRouterMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVM.release.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		D296675423F27BED00731658 /* PFXRouterMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFXRouterMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D296675723F27BED00731658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D296675923F27BED00731658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D296675B23F27BED00731658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D296675E23F27BED00731658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D296676123F27BED00731658 /* PFXRouterMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PFXRouterMVVM.xcdatamodel; sourceTree = "<group>"; };
+		D296676323F27BEE00731658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D296676623F27BEE00731658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D296676823F27BEE00731658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D296676D23F27BEE00731658 /* PFXRouterMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFXRouterMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D296677123F27BEE00731658 /* PFXRouterMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFXRouterMVVMTests.swift; sourceTree = "<group>"; };
+		D296677323F27BEE00731658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D296677823F27BEE00731658 /* PFXRouterMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFXRouterMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D296677C23F27BEE00731658 /* PFXRouterMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFXRouterMVVMUITests.swift; sourceTree = "<group>"; };
+		D296677E23F27BEE00731658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D296678B23F28AFB00731658 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D296679123F28BEA00731658 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		D296679323F28BF700731658 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		D296679523F28C0700731658 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D296679723F28C1500731658 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
+		D296679A23F28D4800731658 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		D296679C23F28E5700731658 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		D296679E23F28EBA00731658 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D29667A123F28F6400731658 /* URL+Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Params.swift"; sourceTree = "<group>"; };
+		DFF9D868651D3EA7614FB349 /* Pods_PFXRouterMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRouterMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D296675123F27BED00731658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1755D71BF56AD38C19464C5B /* Pods_PFXRouterMVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296676A23F27BEE00731658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9217ECF8ECC47298AAF5DABD /* Pods_PFXRouterMVVMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296677523F27BEE00731658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4995B4479A6E21F7B81326A4 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF4FACEC6A934F08F62AE85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B546EF194909DEB59DEBFA5F /* Pods-PFXRouterMVVM.debug.xcconfig */,
+				BBD9C38B8C805E9CCA208EDC /* Pods-PFXRouterMVVM.release.xcconfig */,
+				24394E9F6D0874BD15E17457 /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.debug.xcconfig */,
+				89A572044AD6DEDB8C33F67F /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.release.xcconfig */,
+				ACC3F774A41CCBF8B84F1582 /* Pods-PFXRouterMVVMTests.debug.xcconfig */,
+				0D56A856D81579D7E6D217B3 /* Pods-PFXRouterMVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D296674B23F27BED00731658 = {
+			isa = PBXGroup;
+			children = (
+				D296678B23F28AFB00731658 /* .swiftlint.yml */,
+				D296675623F27BED00731658 /* PFXRouterMVVM */,
+				D296677023F27BEE00731658 /* PFXRouterMVVMTests */,
+				D296677B23F27BEE00731658 /* PFXRouterMVVMUITests */,
+				D296675523F27BED00731658 /* Products */,
+				BDF4FACEC6A934F08F62AE85 /* Pods */,
+				FFC8CB5997D63AEE828BACD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D296675523F27BED00731658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D296675423F27BED00731658 /* PFXRouterMVVM.app */,
+				D296676D23F27BEE00731658 /* PFXRouterMVVMTests.xctest */,
+				D296677823F27BEE00731658 /* PFXRouterMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D296675623F27BED00731658 /* PFXRouterMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D29667A023F28F5100731658 /* Helpers */,
+				D296679923F28D3B00731658 /* Base */,
+				D296678D23F28B9600731658 /* Lists */,
+				D296675723F27BED00731658 /* AppDelegate.swift */,
+				D296675923F27BED00731658 /* SceneDelegate.swift */,
+				D296675B23F27BED00731658 /* ViewController.swift */,
+				D296675D23F27BED00731658 /* Main.storyboard */,
+				D296676323F27BEE00731658 /* Assets.xcassets */,
+				D296676523F27BEE00731658 /* LaunchScreen.storyboard */,
+				D296676823F27BEE00731658 /* Info.plist */,
+				D296676023F27BED00731658 /* PFXRouterMVVM.xcdatamodeld */,
+			);
+			path = PFXRouterMVVM;
+			sourceTree = "<group>";
+		};
+		D296677023F27BEE00731658 /* PFXRouterMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				D296677123F27BEE00731658 /* PFXRouterMVVMTests.swift */,
+				D296677323F27BEE00731658 /* Info.plist */,
+			);
+			path = PFXRouterMVVMTests;
+			sourceTree = "<group>";
+		};
+		D296677B23F27BEE00731658 /* PFXRouterMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D296677C23F27BEE00731658 /* PFXRouterMVVMUITests.swift */,
+				D296677E23F27BEE00731658 /* Info.plist */,
+			);
+			path = PFXRouterMVVMUITests;
+			sourceTree = "<group>";
+		};
+		D296678D23F28B9600731658 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				D296679023F28BC800731658 /* Routers */,
+				D296678F23F28BBE00731658 /* ViewModels */,
+				D296678E23F28BB200731658 /* Views */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		D296678E23F28BB200731658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D296679523F28C0700731658 /* ListViewController.swift */,
+				D296679723F28C1500731658 /* List.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D296678F23F28BBE00731658 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D296679323F28BF700731658 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D296679023F28BC800731658 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				D296679123F28BEA00731658 /* ListRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		D296679923F28D3B00731658 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D296679A23F28D4800731658 /* BaseRouter.swift */,
+				D296679C23F28E5700731658 /* BaseViewModel.swift */,
+				D296679E23F28EBA00731658 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D29667A023F28F5100731658 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D29667A123F28F6400731658 /* URL+Params.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FFC8CB5997D63AEE828BACD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9D868651D3EA7614FB349 /* Pods_PFXRouterMVVM.framework */,
+				13D0F80A7F5EE917CE5FB382 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework */,
+				06FEBE90E99D651F8C3CEC4D /* Pods_PFXRouterMVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D296675323F27BED00731658 /* PFXRouterMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D296678123F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVM" */;
+			buildPhases = (
+				98C034D7CFF253FDAF3D0CD6 /* [CP] Check Pods Manifest.lock */,
+				D296675023F27BED00731658 /* Sources */,
+				D296675123F27BED00731658 /* Frameworks */,
+				D296675223F27BED00731658 /* Resources */,
+				E20E877C59C579C80E9BADB2 /* [CP] Embed Pods Frameworks */,
+				D296678A23F27CCC00731658 /* SwiftLint Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFXRouterMVVM;
+			productName = PFXRouterMVVM;
+			productReference = D296675423F27BED00731658 /* PFXRouterMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D296676C23F27BEE00731658 /* PFXRouterMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D296678423F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVMTests" */;
+			buildPhases = (
+				D6E923E0059EACDA2AD57032 /* [CP] Check Pods Manifest.lock */,
+				D296676923F27BEE00731658 /* Sources */,
+				D296676A23F27BEE00731658 /* Frameworks */,
+				D296676B23F27BEE00731658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D296676F23F27BEE00731658 /* PBXTargetDependency */,
+			);
+			name = PFXRouterMVVMTests;
+			productName = PFXRouterMVVMTests;
+			productReference = D296676D23F27BEE00731658 /* PFXRouterMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D296677723F27BEE00731658 /* PFXRouterMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D296678723F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVMUITests" */;
+			buildPhases = (
+				171F09DE81F9C4C6F30F8CFA /* [CP] Check Pods Manifest.lock */,
+				D296677423F27BEE00731658 /* Sources */,
+				D296677523F27BEE00731658 /* Frameworks */,
+				D296677623F27BEE00731658 /* Resources */,
+				DB572C82E552A1AF9F6CC10E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D296677A23F27BEE00731658 /* PBXTargetDependency */,
+			);
+			name = PFXRouterMVVMUITests;
+			productName = PFXRouterMVVMUITests;
+			productReference = D296677823F27BEE00731658 /* PFXRouterMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D296674C23F27BED00731658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = pfxstudio;
+				TargetAttributes = {
+					D296675323F27BED00731658 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D296676C23F27BEE00731658 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D296675323F27BED00731658;
+					};
+					D296677723F27BEE00731658 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D296675323F27BED00731658;
+					};
+				};
+			};
+			buildConfigurationList = D296674F23F27BED00731658 /* Build configuration list for PBXProject "PFXRouterMVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D296674B23F27BED00731658;
+			productRefGroup = D296675523F27BED00731658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D296675323F27BED00731658 /* PFXRouterMVVM */,
+				D296676C23F27BEE00731658 /* PFXRouterMVVMTests */,
+				D296677723F27BEE00731658 /* PFXRouterMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D296675223F27BED00731658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296678C23F28AFB00731658 /* .swiftlint.yml in Resources */,
+				D296676723F27BEE00731658 /* LaunchScreen.storyboard in Resources */,
+				D296679823F28C1500731658 /* List.storyboard in Resources */,
+				D296676423F27BEE00731658 /* Assets.xcassets in Resources */,
+				D296675F23F27BED00731658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296676B23F27BEE00731658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296677623F27BEE00731658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171F09DE81F9C4C6F30F8CFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PFXRouterMVVM-PFXRouterMVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C034D7CFF253FDAF3D0CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PFXRouterMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D296678A23F27CCC00731658 /* SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint autocorrect\n\n";
+		};
+		D6E923E0059EACDA2AD57032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PFXRouterMVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB572C82E552A1AF9F6CC10E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM-PFXRouterMVVMUITests/Pods-PFXRouterMVVM-PFXRouterMVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM-PFXRouterMVVMUITests/Pods-PFXRouterMVVM-PFXRouterMVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM-PFXRouterMVVMUITests/Pods-PFXRouterMVVM-PFXRouterMVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20E877C59C579C80E9BADB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D296675023F27BED00731658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296675C23F27BED00731658 /* ViewController.swift in Sources */,
+				D296675823F27BED00731658 /* AppDelegate.swift in Sources */,
+				D296679B23F28D4800731658 /* BaseRouter.swift in Sources */,
+				D296679423F28BF700731658 /* ListViewModel.swift in Sources */,
+				D296675A23F27BED00731658 /* SceneDelegate.swift in Sources */,
+				D29667A223F28F6400731658 /* URL+Params.swift in Sources */,
+				D296679F23F28EBA00731658 /* BaseViewController.swift in Sources */,
+				D296679D23F28E5700731658 /* BaseViewModel.swift in Sources */,
+				D296679223F28BEA00731658 /* ListRouter.swift in Sources */,
+				D296676223F27BED00731658 /* PFXRouterMVVM.xcdatamodeld in Sources */,
+				D296679623F28C0700731658 /* ListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296676923F27BEE00731658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296677223F27BEE00731658 /* PFXRouterMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296677423F27BEE00731658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296677D23F27BEE00731658 /* PFXRouterMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D296676F23F27BEE00731658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D296675323F27BED00731658 /* PFXRouterMVVM */;
+			targetProxy = D296676E23F27BEE00731658 /* PBXContainerItemProxy */;
+		};
+		D296677A23F27BEE00731658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D296675323F27BED00731658 /* PFXRouterMVVM */;
+			targetProxy = D296677923F27BEE00731658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D296675D23F27BED00731658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D296675E23F27BED00731658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D296676523F27BEE00731658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D296676623F27BEE00731658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D296677F23F27BEE00731658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D296678023F27BEE00731658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D296678223F27BEE00731658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B546EF194909DEB59DEBFA5F /* Pods-PFXRouterMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D296678323F27BEE00731658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD9C38B8C805E9CCA208EDC /* Pods-PFXRouterMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D296678523F27BEE00731658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC3F774A41CCBF8B84F1582 /* Pods-PFXRouterMVVMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PFXRouterMVVM.app/PFXRouterMVVM";
+			};
+			name = Debug;
+		};
+		D296678623F27BEE00731658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D56A856D81579D7E6D217B3 /* Pods-PFXRouterMVVMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PFXRouterMVVM.app/PFXRouterMVVM";
+			};
+			name = Release;
+		};
+		D296678823F27BEE00731658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24394E9F6D0874BD15E17457 /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PFXRouterMVVM;
+			};
+			name = Debug;
+		};
+		D296678923F27BEE00731658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A572044AD6DEDB8C33F67F /* Pods-PFXRouterMVVM-PFXRouterMVVMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = PFXRouterMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.PFXRouterMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PFXRouterMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D296674F23F27BED00731658 /* Build configuration list for PBXProject "PFXRouterMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296677F23F27BEE00731658 /* Debug */,
+				D296678023F27BEE00731658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D296678123F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296678223F27BEE00731658 /* Debug */,
+				D296678323F27BEE00731658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D296678423F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296678523F27BEE00731658 /* Debug */,
+				D296678623F27BEE00731658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D296678723F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D296678823F27BEE00731658 /* Debug */,
+				D296678923F27BEE00731658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D296676023F27BED00731658 /* PFXRouterMVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D296676123F27BED00731658 /* PFXRouterMVVM.xcdatamodel */,
+			);
+			currentVersion = D296676123F27BED00731658 /* PFXRouterMVVM.xcdatamodel */;
+			path = PFXRouterMVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D296674C23F27BED00731658 /* Project object */;
+}
