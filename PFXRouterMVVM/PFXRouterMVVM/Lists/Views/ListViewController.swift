@@ -8,7 +8,12 @@
 
 import Foundation
 import UIKit
+import RxSwift
+import RxDataSources
 
-class ListViewController: UIViewController {
+class ListViewController: BaseViewController {
+    private var disposeBag = DisposeBag()
+    private var rxDataSource: RxTableViewSectionedReloadDataSource<ListSectionModel>?
+    var viewModel: ListViewModel!
 
 }

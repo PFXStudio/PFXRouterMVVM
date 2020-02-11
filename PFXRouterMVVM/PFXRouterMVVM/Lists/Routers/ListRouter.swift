@@ -17,5 +17,4 @@ class ListRouter: BaseRouter {
     static func viewController(path: [String], param: [String: Any]) -> UIViewController? {
         return UIViewController()
     }
-
 }

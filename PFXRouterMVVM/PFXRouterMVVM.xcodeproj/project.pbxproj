@@ -28,6 +28,9 @@
 		D296679D23F28E5700731658 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679C23F28E5700731658 /* BaseViewModel.swift */; };
 		D296679F23F28EBA00731658 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296679E23F28EBA00731658 /* BaseViewController.swift */; };
 		D29667A223F28F6400731658 /* URL+Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29667A123F28F6400731658 /* URL+Params.swift */; };
+		D29667A623F2967500731658 /* ListSectionIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29667A523F2967500731658 /* ListSectionIModel.swift */; };
+		D29667A823F2970600731658 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29667A723F2970600731658 /* ItemModel.swift */; };
+		D29667AA23F29A0E00731658 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29667A923F29A0E00731658 /* BaseViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 		D296679C23F28E5700731658 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		D296679E23F28EBA00731658 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D29667A123F28F6400731658 /* URL+Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Params.swift"; sourceTree = "<group>"; };
+		D29667A523F2967500731658 /* ListSectionIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionIModel.swift; sourceTree = "<group>"; };
+		D29667A723F2970600731658 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		D29667A923F29A0E00731658 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
 		DFF9D868651D3EA7614FB349 /* Pods_PFXRouterMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRouterMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -186,6 +192,7 @@
 		D296678D23F28B9600731658 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
+				D29667A423F2965800731658 /* Models */,
 				D296679023F28BC800731658 /* Routers */,
 				D296678F23F28BBE00731658 /* ViewModels */,
 				D296678E23F28BB200731658 /* Views */,
@@ -224,6 +231,7 @@
 				D296679A23F28D4800731658 /* BaseRouter.swift */,
 				D296679C23F28E5700731658 /* BaseViewModel.swift */,
 				D296679E23F28EBA00731658 /* BaseViewController.swift */,
+				D29667A923F29A0E00731658 /* BaseViewModelProtocol.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -234,6 +242,15 @@
 				D29667A123F28F6400731658 /* URL+Params.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D29667A423F2965800731658 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D29667A523F2967500731658 /* ListSectionIModel.swift */,
+				D29667A723F2970600731658 /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FFC8CB5997D63AEE828BACD7 /* Frameworks */ = {
@@ -508,9 +525,12 @@
 			files = (
 				D296675C23F27BED00731658 /* ViewController.swift in Sources */,
 				D296675823F27BED00731658 /* AppDelegate.swift in Sources */,
+				D29667A823F2970600731658 /* ItemModel.swift in Sources */,
 				D296679B23F28D4800731658 /* BaseRouter.swift in Sources */,
 				D296679423F28BF700731658 /* ListViewModel.swift in Sources */,
+				D29667AA23F29A0E00731658 /* BaseViewModelProtocol.swift in Sources */,
 				D296675A23F27BED00731658 /* SceneDelegate.swift in Sources */,
+				D29667A623F2967500731658 /* ListSectionIModel.swift in Sources */,
 				D29667A223F28F6400731658 /* URL+Params.swift in Sources */,
 				D296679F23F28EBA00731658 /* BaseViewController.swift in Sources */,
 				D296679D23F28E5700731658 /* BaseViewModel.swift in Sources */,

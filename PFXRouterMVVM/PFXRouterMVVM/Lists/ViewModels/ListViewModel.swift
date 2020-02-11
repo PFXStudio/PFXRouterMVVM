@@ -8,6 +8,15 @@
 
 import Foundation
 
-class ListViewModel {
+class ListViewModel: BaseViewModel, BaseViewModelProtocol {
+    struct Input {}
+    struct Output {
+    }
+    struct Dependency {
+    }
+
+    var input: ListViewModel.Input!
+    var output: ListViewModel.Output!
+    var dependency: ListViewModel.Dependency!
 
 }
