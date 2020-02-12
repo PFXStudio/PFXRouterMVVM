@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-757" y="13"/>
         </scene>
-        <!--Search View Controller-->
+        <!--Search by project from github-->
         <scene sceneID="TVG-qc-wei">
             <objects>
                 <viewController storyboardIdentifier="SearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cXB-q3-NV1" customClass="SearchViewController" customModule="PFXRouterMVVM" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="width" constant="20" id="mjF-GN-OaE"/>
                                 </constraints>
                             </activityIndicatorView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type query here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QEE-TS-iJO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input search text..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QEE-TS-iJO">
                                 <rect key="frame" x="15" y="74" width="345" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bDt-At-dhP"/>
@@ -46,7 +46,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repositories found:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUl-LN-D8y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUl-LN-D8y">
                                 <rect key="frame" x="15" y="138" width="148" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="LA2-Hf-wxE"/>
@@ -78,7 +78,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="77E-QZ-U84"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qig-pB-u5f"/>
+                    <navigationItem key="navigationItem" title="Search by project from github" id="Qig-pB-u5f"/>
                     <connections>
                         <outlet property="loadingWheel" destination="hpM-JW-L0k" id="sMH-EM-bH4"/>
                         <outlet property="resultlLabel" destination="dUl-LN-D8y" id="ecK-4M-erX"/>

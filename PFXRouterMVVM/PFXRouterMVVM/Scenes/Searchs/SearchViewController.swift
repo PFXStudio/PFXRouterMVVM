@@ -32,7 +32,7 @@ class SearchViewController: UIViewController, BaseViewController {
         viewModel.listItems.asObservable().bind(to: tableView.rx.items) { (tableView, _, element) in
 
             let cell: UITableViewCell
-            let reuseId = "RepoCell"
+            let reuseId = "SearchCell"
             if let reusedCell = tableView.dequeueReusableCell(withIdentifier: reuseId) {
                 cell = reusedCell
             } else {

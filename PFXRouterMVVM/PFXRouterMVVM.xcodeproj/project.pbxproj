@@ -11,7 +11,6 @@
 		4995B4479A6E21F7B81326A4 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D0F80A7F5EE917CE5FB382 /* Pods_PFXRouterMVVM_PFXRouterMVVMUITests.framework */; };
 		9217ECF8ECC47298AAF5DABD /* Pods_PFXRouterMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FEBE90E99D651F8C3CEC4D /* Pods_PFXRouterMVVMTests.framework */; };
 		D296675823F27BED00731658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675723F27BED00731658 /* AppDelegate.swift */; };
-		D296675A23F27BED00731658 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675923F27BED00731658 /* SceneDelegate.swift */; };
 		D296675C23F27BED00731658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296675B23F27BED00731658 /* ViewController.swift */; };
 		D296675F23F27BED00731658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D296675D23F27BED00731658 /* Main.storyboard */; };
 		D296676223F27BED00731658 /* PFXRouterMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D296676023F27BED00731658 /* PFXRouterMVVM.xcdatamodeld */; };
@@ -31,7 +30,7 @@
 		D2FDC18C23F3E6D500DD9E4E /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC18B23F3E6D500DD9E4E /* DetailRouter.swift */; };
 		D2FDC18E23F3E6E300DD9E4E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC18D23F3E6E300DD9E4E /* DetailViewModel.swift */; };
 		D2FDC19023F3E6EE00DD9E4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC18F23F3E6EE00DD9E4E /* DetailViewController.swift */; };
-		D2FDC19323F3E78700DD9E4E /* StoryboardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC19223F3E78700DD9E4E /* StoryboardUtil.swift */; };
+		D2FDC19323F3E78700DD9E4E /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC19223F3E78700DD9E4E /* Storyboards.swift */; };
 		D2FDC19523F3E88B00DD9E4E /* UICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FDC19423F3E88B00DD9E4E /* UICoordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +62,6 @@
 		BBD9C38B8C805E9CCA208EDC /* Pods-PFXRouterMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRouterMVVM.release.xcconfig"; path = "Target Support Files/Pods-PFXRouterMVVM/Pods-PFXRouterMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		D296675423F27BED00731658 /* PFXRouterMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFXRouterMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D296675723F27BED00731658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D296675923F27BED00731658 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D296675B23F27BED00731658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D296675E23F27BED00731658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D296676123F27BED00731658 /* PFXRouterMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PFXRouterMVVM.xcdatamodel; sourceTree = "<group>"; };
@@ -88,7 +86,7 @@
 		D2FDC18B23F3E6D500DD9E4E /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		D2FDC18D23F3E6E300DD9E4E /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		D2FDC18F23F3E6EE00DD9E4E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D2FDC19223F3E78700DD9E4E /* StoryboardUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardUtil.swift; sourceTree = "<group>"; };
+		D2FDC19223F3E78700DD9E4E /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		D2FDC19423F3E88B00DD9E4E /* UICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICoordinator.swift; sourceTree = "<group>"; };
 		DFF9D868651D3EA7614FB349 /* Pods_PFXRouterMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRouterMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +132,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D240899A23F40A33003A7C4A /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				D2FDC19223F3E78700DD9E4E /* Storyboards.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		D296674B23F27BED00731658 = {
 			isa = PBXGroup;
 			children = (
@@ -160,13 +166,13 @@
 		D296675623F27BED00731658 /* PFXRouterMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D240899A23F40A33003A7C4A /* SwiftGen */,
 				D2FDC19123F3E77C00DD9E4E /* Utils */,
 				D2FDC18723F3E69200DD9E4E /* Services */,
 				D2FDC17823F3E48900DD9E4E /* BaseProtocols */,
 				D2FDC17523F3E31200DD9E4E /* Models */,
 				D2FDC17F23F3E51B00DD9E4E /* Scenes */,
 				D296675723F27BED00731658 /* AppDelegate.swift */,
-				D296675923F27BED00731658 /* SceneDelegate.swift */,
 				D296675B23F27BED00731658 /* ViewController.swift */,
 				D296675D23F27BED00731658 /* Main.storyboard */,
 				D296676323F27BEE00731658 /* Assets.xcassets */,
@@ -253,7 +259,6 @@
 		D2FDC19123F3E77C00DD9E4E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				D2FDC19223F3E78700DD9E4E /* StoryboardUtil.swift */,
 				D2FDC19423F3E88B00DD9E4E /* UICoordinator.swift */,
 			);
 			path = Utils;
@@ -277,6 +282,7 @@
 			buildConfigurationList = D296678123F27BEE00731658 /* Build configuration list for PBXNativeTarget "PFXRouterMVVM" */;
 			buildPhases = (
 				98C034D7CFF253FDAF3D0CD6 /* [CP] Check Pods Manifest.lock */,
+				D240899923F409A6003A7C4A /* ShellScript */,
 				D296675023F27BED00731658 /* Sources */,
 				D296675123F27BED00731658 /* Frameworks */,
 				D296675223F27BED00731658 /* Resources */,
@@ -447,6 +453,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D240899923F409A6003A7C4A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${PROJECT_DIR}/PFXRouterMVVM/SwiftGen\n${PODS_ROOT}/SwiftGen/bin/swiftgen config run\n";
+		};
 		D296678A23F27CCC00731658 /* SwiftLint Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,12 +557,11 @@
 				D2FDC18C23F3E6D500DD9E4E /* DetailRouter.swift in Sources */,
 				D296675C23F27BED00731658 /* ViewController.swift in Sources */,
 				D2FDC17A23F3E49800DD9E4E /* BaseRouter.swift in Sources */,
-				D2FDC19323F3E78700DD9E4E /* StoryboardUtil.swift in Sources */,
+				D2FDC19323F3E78700DD9E4E /* Storyboards.swift in Sources */,
 				D2FDC17723F3E32100DD9E4E /* GithubModel.swift in Sources */,
 				D2FDC18223F3E5CA00DD9E4E /* SearchRouter.swift in Sources */,
 				D296675823F27BED00731658 /* AppDelegate.swift in Sources */,
 				D2FDC18E23F3E6E300DD9E4E /* DetailViewModel.swift in Sources */,
-				D296675A23F27BED00731658 /* SceneDelegate.swift in Sources */,
 				D2FDC17E23F3E4B200DD9E4E /* BaseViewModel.swift in Sources */,
 				D2FDC19023F3E6EE00DD9E4E /* DetailViewController.swift in Sources */,
 				D2FDC17C23F3E4A200DD9E4E /* BaseViewController.swift in Sources */,

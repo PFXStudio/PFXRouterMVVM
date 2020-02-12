@@ -71,19 +71,19 @@ enum StoryboardScene {
     }
 
     case DetailsViewControllerScene = "DetailViewController"
-    static func instantiateRepoDetailsViewController() -> PFXRouterMVVM.DetailViewController {
+    static func instantiateDetailsViewController() -> PFXRouterMVVM.DetailViewController {
       guard let vc = StoryboardScene.Main.DetailsViewControllerScene.viewController() as? PFXRouterMVVM.DetailViewController
       else {
-        fatalError("ViewController 'RepoDetailsViewController' is not of the expected class MVVM_RouterDemo.RepoDetailsViewController.")
+        fatalError("ViewController 'DetailsViewController' is not of the expected class MVVM_RouterDemo.DetailsViewController.")
       }
       return vc
     }
 
     case SearchViewControllerScene = "SearchViewController"
-    static func instantiateRepoSearchViewController() -> PFXRouterMVVM.SearchViewController {
+    static func instantiateSearchViewController() -> PFXRouterMVVM.SearchViewController {
       guard let vc = StoryboardScene.Main.SearchViewControllerScene.viewController() as? PFXRouterMVVM.SearchViewController
       else {
-        fatalError("ViewController 'RepoSearchViewController' is not of the expected class MVVM_RouterDemo.RepoSearchViewController.")
+        fatalError("ViewController 'SearchViewController' is not of the expected class StoryboardScene.SearchViewController.")
       }
       return vc
     }

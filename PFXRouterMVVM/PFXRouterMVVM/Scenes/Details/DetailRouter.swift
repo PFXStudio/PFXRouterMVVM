@@ -25,7 +25,7 @@ class DetailRouter: BaseRouter {
 
         switch presentationContext {
         case .view(let repo):
-            let viewController = StoryboardScene.Main.instantiateRepoDetailsViewController()
+            let viewController = StoryboardScene.Main.instantiateDetailsViewController()
 
             let viewModel = DetailViewModel.init(with: self, repo: repo)
             viewController.viewModel = viewModel
