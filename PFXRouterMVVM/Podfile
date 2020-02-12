@@ -6,10 +6,10 @@ target 'PFXRouterMVVM' do
   use_frameworks!
   pod 'RxSwift'
   pod 'RxCocoa'
-  pod 'RxAlamofire'
   pod 'RxDataSources'
-  pod 'RxOptional'
-  pod 'Nuke'
+  pod 'Alamofire'
+  pod 'Unbox'
+  pod 'SwiftGen'
   pod 'SwiftLint'
 
   # Pods for PFXRouterMVVM
